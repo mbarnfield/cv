@@ -1,0 +1,85 @@
+---
+name: Matthew
+surname: Barnfield
+position: "PhD Candidate"
+address: "SPIR, Queen Mary University of London"
+phone: +44 7795247782
+www: mbarnfield.github.io
+header-includes: 
+   - \usepackage{times}
+font-family: Times New Roman
+mainfont: Times New Roman
+email: "m.barnfield@qmul.ac.uk"
+twitter: m_barnfield
+github: mbarnfield
+output: 
+  vitae::moderncv:
+    theme: classic
+headcolor: "000088"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Mark,
+  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Philip Cowley and Javier Sajuria. Funded by a +3 ESRC studentship",
+  "MRes Politics and International Relations", "2017-2018", "University of Bath", "awarded with Distinction, supervised by Peter Allen and Aurélien Mondon",
+  "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Mark)
+```
+
+# Publications and research
+
+## Journal articles
+
+1. Barnfield, M. 2019. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Political Studies Review*. __[doi: 10.1177/1478929919870691.](https://journals.sagepub.com/doi/full/10.1177/1478929919870691)__
+
+## Conference presentations
+
+1. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Presented at the 5th __Montréal-Leuven Winter School__ on Elections and Public Opinion*, February 2019.     
+
+2. Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice. *Presented at __EPOP 2019__*, September 2019.
+
+## Working papers
+
+1. Descriptive and Causal Inference in Conjoint Analysis. *Early-stages paper __critiquing interpretations of conjoint analyses__ in political science research*.
+
+2. Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice. *Working paper under revision for journal submission, focusing on __causal inference in the relationship between electoral expectations and vote choice__*.
+
+# Software (`R` packages)
+
+- `cjbae` - Bayesian analysis of conjoint experimental data. __Author and creator.__      
+
+- `cregg` - Simple conjoint analyses, tidying, and visualisation. __Contributor.__     
+
+# Teaching
+
+## Seminar leader
+
+- POL112 __Introduction to Politics__, Queen Mary University of London.    
+
+
+- POL205 __Political Research__, Queen Mary University of London.
+
+# Professional memberships and service
+
+- Member of __Political Studies Association__
+- Member of __Elections, Public Opinion and Parties__ Specialist Group
+- Peer reviewer for __Electoral Studies__
+
+# Skills
+
+- Proficient in using and teaching __`R`__ for both data analysis and programming.   
+
+- Literate in other statistical software including __`spss`, `Python`__ and __`Stata`__.    
+
+- Advanced understanding of __French__ and __Spanish__ languages. 
+
