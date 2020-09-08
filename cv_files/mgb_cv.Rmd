@@ -40,13 +40,9 @@ tribble(
 
 ## Journal articles
 
-1. Barnfield, M. and Zerback, T. 2020. Total recall? Examining the accuracy of poll recall during an election campaign. Under review at *International Journal of Press/Politics*.
+1. Barnfield, M. and Bale, T. 2020.‘Leaving the red Tories’: ideology, leaders and why party members quit. Forthcoming at *Party Politics*.    
 
-2. Barnfield, M. and Bale, T. 2020.‘Leaving the red Tories’: ideology, leaders and why UK party members quit. Under review at *Party Politics*.    
-
-3. Barnfield, M., Bazeley, A., Harman, S., Rosenblatt, G., Stephenson, M-A. and Wenham, C. 2020. Perceptions of accessing health care during COVID-19. Under Review at *The BMJ -- Quality and Safety*.
-
-4. Barnfield, M. 2019. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Political Studies Review*. __[Link.](https://journals.sagepub.com/doi/full/10.1177/1478929919870691)__
+2. Barnfield, M. 2019. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Political Studies Review*. __[Link.](https://journals.sagepub.com/doi/full/10.1177/1478929919870691)__
 
 ## Conference presentations
 
@@ -75,6 +71,8 @@ tribble(
 - POL112 __Introduction *into* Politics__, Queen Mary University of London.    
 
 - POL205 __Political Research__, Queen Mary University of London.
+
+- poL269 __Political Data Research__, Queen Mary University of London
 
 # Professional memberships and service
 
