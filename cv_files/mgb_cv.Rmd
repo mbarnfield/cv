@@ -50,12 +50,6 @@ tribble(
 
 2. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Presented at the 5th __Montréal-Leuven Winter School__ on Elections and Public Opinion*, February 2019.    
 
-## Working papers
-
-1. Momentum matters: dynamic popularity and electoral expectations. *Developing thesis chapter for publication as short empirical article.*
-
-2. Reframing wishful thinking: understanding confounding in research on the bandwagon effect. *Developing thesis chapter for publication.*
-
 ## Other research involvement
 
 - Research assistant on ESRC-funded *Party Members Project*
@@ -72,13 +66,13 @@ tribble(
 
 - POL205 __Political Research__, Queen Mary University of London.
 
-- POL269 __Political Data Research__, Queen Mary University of London
+- POL269 __Political Data Research__, Queen Mary University of London.
 
 # Professional memberships and service
 
-- Member of __Political Studies Association__
-- Member of __Elections, Public Opinion and Parties__ Specialist Group
-- Peer reviewer for __Electoral Studies__ and __British Journal of Political Science__
+- Member of __Political Studies Association__.
+- Member of __Elections, Public Opinion and Parties__ Specialist Group.
+- Peer reviewer for __Electoral Studies__ and __British Journal of Political Science__.
 
 # Skills
 
