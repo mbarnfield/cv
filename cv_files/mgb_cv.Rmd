@@ -40,7 +40,7 @@ tribble(
 
 ## Journal articles
 
-1. Barnfield, M. and Bale, T. 2020.‘Leaving the red Tories’: ideology, leaders and why party members quit. Forthcoming at *Party Politics*.    
+1. Barnfield, M. and Bale, T. 2020.‘Leaving the red Tories’: ideology, leaders, and why party members quit. *Party Politics*. __[Link.](https://journals.sagepub.com/doi/full/10.1177/1354068820962035)__    
 
 2. Barnfield, M. 2019. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Political Studies Review*. __[Link.](https://journals.sagepub.com/doi/full/10.1177/1478929919870691)__
 
@@ -72,7 +72,7 @@ tribble(
 
 - POL205 __Political Research__, Queen Mary University of London.
 
-- poL269 __Political Data Research__, Queen Mary University of London
+- POL269 __Political Data Research__, Queen Mary University of London
 
 # Professional memberships and service
 
