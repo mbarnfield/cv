@@ -88,8 +88,8 @@ tribble(
 library(tibble)
 tribble(
   ~ Detail, ~ Package, ~ Role,
-  "Bayesian analysis of conjoint experiments", "cjbae", "Author and creator",
-  "Simple conjoint analyses, tidying, and visualisation", "cregg", "Contributor"
+  "Author and creator", "cjbae", "Bayesian analysis of conjoint experiments",
+  "Contributor", "cregg", "Simple conjoint analyses, tidying, and visualisation"
 ) %>% 
   detailed_entries(Detail, Package, Role, .protect = FALSE)
 
