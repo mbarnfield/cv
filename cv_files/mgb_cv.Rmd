@@ -31,7 +31,7 @@ tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
   "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Philip Cowley and Javier Sajuria. Funded by a +3 ESRC studentship",
   "MRes Politics and International Relations", "2017-2018", "University of Bath", "awarded with Distinction, supervised by Peter Allen and Aurelien Mondon",
-  "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. (awarded Gordon Horner Prize for highest average performance on degree programme)"
+  "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. (awarded Gordon Horner Prize for highest overall performance on degree programme)"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Mark)
 ```
@@ -40,45 +40,110 @@ tribble(
 
 ## Journal articles
 
-1. Barnfield, M. and Bale, T. 2020.‘Leaving the red Tories’: ideology, leaders, and why party members quit. *Party Politics*. __[Link.](https://journals.sagepub.com/doi/full/10.1177/1354068820962035)__    
+```{r}
+library(tibble)
+tribble(
+  ~ Authors, ~ Order, ~ Title, ~ Journal,
+  "Barnfield, M.", "2020", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
+  "Barnfield, M. and Bale, T.", "2020", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}",
+  "Zerback, T., Reinemann, C., and Barnfield, M.", "Under Review", "Total Recall? Examining the accuracy of poll recall during an election campaign", "Mass Communication and Society"
+) %>% 
+  detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
 
-2. Barnfield, M. 2019. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Political Studies Review*. __[Link.](https://journals.sagepub.com/doi/full/10.1177/1478929919870691)__
 
-## Conference presentations
+```
 
-1. Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice. *Presented at __EPOP 2019__*, September 2019.
 
-2. Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect. *Presented at the 5th __Montréal-Leuven Winter School__ on Elections and Public Opinion*, February 2019.    
+## Conference papers
 
+
+```{r}
+library(tibble)
+tribble(
+  ~ Role, ~ Date, ~ Title, ~ Conference,
+  "Presenter", "2019", "Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice", "Presented at annual conference of Elections, Public Opinion and Parties (EPOP) specialist group, September 2019",
+  "Presenter", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect.", "Presented at the 5th Montréal-Leuven Winter School, February 2019"
+) %>% 
+  detailed_entries(Role, Date, Title, Conference, .protect = FALSE)
+
+
+```
+   
 ## Other research involvement
 
-- Research assistant on ESRC-funded *Party Members Project*
+```{r}
+library(tibble)
+tribble(
+  ~ Role, ~ Date, ~ Title,
+  "Research Assistant", "2019-2020", "ESRC Party Members Project"
+) %>% 
+  detailed_entries(Role, Date, Title, .protect = FALSE)
+
+
+```
 
 # Software (`R` packages)
 
-- `cjbae` - Bayesian analysis of conjoint experimental data. __Author and creator.__      
+```{r}
+library(tibble)
+tribble(
+  ~ Detail, ~ Package, ~ Role,
+  "Bayesian analysis of conjoint experiments", "cjbae", "Author and creator",
+  "Simple conjoint analyses, tidying, and visualisation", "cregg", "Contributor"
+) %>% 
+  detailed_entries(Detail, Package, Role, .protect = FALSE)
 
-- `cregg` - Simple conjoint analyses, tidying, and visualisation. __Contributor.__     
+
+```   
 
 # Teaching
 
-- POL112 __Introduction *into* Politics__, Queen Mary University of London.    
+```{r}
+library(tibble)
+tribble(
+  ~ Name, ~ Code, ~ University,
+  "Introduction *into* Politics", "POL112", "Queen Mary University of London",
+  "Political Research", "POL252", "Queen Mary University of London",
+  "Political Data Research", "POL269", "Queen Mary University of London",
+  "Introduction to Quantitative Methods (Postgraduate)", "POLM083", "Queen Mary University of London",
+) %>% 
+  detailed_entries(Name, Code, University, .protect = FALSE)
 
-- POL205 __Political Research__, Queen Mary University of London.
 
-- POL269 __Political Data Research__, Queen Mary University of London.
+```   
+
 
 # Professional memberships and service
 
-- Member of __Political Studies Association__.
-- Member of __Elections, Public Opinion and Parties__ Specialist Group.
-- Peer reviewer for __Electoral Studies__ and __British Journal of Political Science__.
+```{r}
+library(tibble)
+tribble(
+  ~ Role, ~ Code, ~ Assoc,
+  "Member", "PSA", "Political Studies Association",
+  "Member", "EPOP", "Elections, Public Opinion and Parties Specialist Group",
+  "Peer reviewer", "Elec. Stud.", "Electoral Studies",
+  "Peer reviewer", "BJPS", "British Journal of Political Science",
+) %>% 
+  detailed_entries(Role, Code, Assoc, .protect = FALSE)
+
+
+``` 
+
 
 # Skills
 
-- Proficient in using and teaching __`R`__ for data analysis, programming and web-scraping.   
+```{r}
+library(tibble)
+tribble(
+  ~ Thing, ~ Summary, ~ Ability,
+  "R", "Software", "Proficient user, teacher and developer",
+  "SPSS and Stata", "Software", "Literate user",
+  "MS Office Suite", "Software", "Proficient user",
+  "French and Spanish", "Languages", "Advanced-level speaker"
+) %>% 
+  detailed_entries(Thing, Summary, Ability, .protect = FALSE)
 
-- Literate in other statistical software including __`spss`__, __`Python`__ and __`Stata`__.    
 
-- Advanced understanding of __French__ and __Spanish__ languages. 
+``` 
+
 
