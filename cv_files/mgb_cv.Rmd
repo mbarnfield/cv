@@ -4,7 +4,7 @@ surname: Barnfield
 position: "PhD Candidate"
 address: "SPIR, Queen Mary University of London"
 phone: +44 7795247782
-www: mbarnfield.github.io
+www: matthewbarnfield.co.uk
 header-includes: 
    - \usepackage{times}
 font-family: Times New Roman
@@ -46,9 +46,23 @@ tribble(
   ~ Authors, ~ Order, ~ Title, ~ Journal,
   "Barnfield, M.", "2020", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
   "Barnfield, M. and Bale, T.", "2020", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}",
-  "Zerback, T., Reinemann, C., and Barnfield, M.", "Under Review", "Total Recall? Examining the accuracy of poll recall during an election campaign", "Mass Communication and Society"
+  "Zerback, T., Reinemann, C., and Barnfield, M.", "2021 (Under Review)", "Total Recall? Examining the accuracy of poll recall during an election campaign", "Mass Communication and Society"
 ) %>% 
   detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
+
+
+```
+
+## Selected working papers
+
+```{r}
+library(tibble)
+tribble(
+  ~ Authors, ~ Order, ~ Title,
+  "Barnfield, M.", "2021", "Momentum Matters: Experimental studies of the effect of dynamic popularity on electoral expectations",
+  "Barnfield, M.", "2021", "An Experimental Study of the Bandwagon Effect in the 2020 U.S. Presidential Election"
+) %>% 
+  detailed_entries(Authors, Order, Title, .protect = FALSE)
 
 
 ```
@@ -58,21 +72,21 @@ tribble(
 
 
 ```{r}
-library(tibble)
 tribble(
   ~ Role, ~ Date, ~ Title, ~ Conference,
-  "Presenter", "2019", "Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice", "Presented at annual conference of Elections, Public Opinion and Parties (EPOP) specialist group, September 2019",
-  "Presenter", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect.", "Presented at the 5th Montréal-Leuven Winter School, February 2019"
+  "Presenter", "2019", "Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice", "Annual conference of Elections, Public Opinion and Parties group",
+  "Presenter", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect.", "Montréal-Leuven Winter School"
 ) %>% 
   detailed_entries(Role, Date, Title, Conference, .protect = FALSE)
 
 
 ```
+
+
    
 ## Other research involvement
 
 ```{r}
-library(tibble)
 tribble(
   ~ Role, ~ Date, ~ Title,
   "Research Assistant", "2019-2020", "ESRC Party Members Project"
@@ -85,11 +99,10 @@ tribble(
 # Software (`R` packages)
 
 ```{r}
-library(tibble)
 tribble(
   ~ Detail, ~ Package, ~ Role,
-  "Author and creator", "cjbae", "Bayesian analysis of conjoint experiments",
-  "Contributor", "cregg", "Simple conjoint analyses, tidying, and visualisation"
+  "Author and creator", "2019-present", "cjbae: Bayesian analysis of conjoint experiments",
+  "Contributor", "2019", "cregg: Simple conjoint analyses, tidying, and visualisation"
 ) %>% 
   detailed_entries(Detail, Package, Role, .protect = FALSE)
 
@@ -99,15 +112,14 @@ tribble(
 # Teaching
 
 ```{r}
-library(tibble)
 tribble(
-  ~ Name, ~ Code, ~ University,
-  "Introduction *into* Politics", "POL112", "Queen Mary University of London",
-  "Political Research", "POL252", "Queen Mary University of London",
-  "Political Data Research", "POL269", "Queen Mary University of London",
-  "Introduction to Quantitative Methods (Postgraduate)", "POLM083", "Queen Mary University of London",
+  ~ Role, ~Name, ~ Date, ~ University,
+  "Teaching Associate", "POL112: Introduction *into* Politics", "2019", "Queen Mary University of London",
+  "Teaching Associate", "POL252: Political Research", "2020", "Queen Mary University of London",
+  "Teaching Associate", "POL269: Political Data Research", "2020", "Queen Mary University of London",
+  "Teaching Associate", "POLM083: Introduction to Quantitative Methods (Postgraduate)", "2021", "Queen Mary University of London",
 ) %>% 
-  detailed_entries(Name, Code, University, .protect = FALSE)
+  detailed_entries(Role, Date, Name, University, .protect = FALSE)
 
 
 ```   
@@ -116,15 +128,14 @@ tribble(
 # Professional memberships and service
 
 ```{r}
-library(tibble)
 tribble(
-  ~ Role, ~ Code, ~ Assoc,
-  "Member", "PSA", "Political Studies Association",
-  "Member", "EPOP", "Elections, Public Opinion and Parties Specialist Group",
-  "Peer reviewer", "Elec. Stud.", "Electoral Studies",
-  "Peer reviewer", "BJPS", "British Journal of Political Science",
+  ~ Role, ~ Date, ~ Assoc,
+  "Member", "2018-present", "Political Studies Association",
+  "Member", "2018-present", "Elections, Public Opinion and Parties Specialist Group",
+  "Peer reviewer", "2019", "Electoral Studies",
+  "Peer reviewer", "2020", "British Journal of Political Science",
 ) %>% 
-  detailed_entries(Role, Code, Assoc, .protect = FALSE)
+  detailed_entries(Role, Date, Assoc, .protect = FALSE)
 
 
 ``` 
@@ -133,15 +144,12 @@ tribble(
 # Skills
 
 ```{r}
-library(tibble)
 tribble(
-  ~ Thing, ~ Summary, ~ Ability,
-  "R", "Software", "Proficient user, teacher and developer",
-  "SPSS and Stata", "Software", "Literate user",
-  "MS Office Suite", "Software", "Proficient user",
-  "French and Spanish", "Languages", "Advanced-level speaker"
+  ~ Thing, ~ Summary,
+  "R, SPSS, Stata, MS Office Suite, LaTeX", "Software", 
+  "English (native), French (advanced), Spanish (intermediate)", "Languages"
 ) %>% 
-  detailed_entries(Thing, Summary, Ability, .protect = FALSE)
+  detailed_entries(Thing, Summary, .protect = FALSE)
 
 
 ``` 
