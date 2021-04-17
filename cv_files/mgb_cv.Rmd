@@ -46,7 +46,7 @@ tribble(
   ~ Authors, ~ Order, ~ Title, ~ Journal,
   "Barnfield, M.", "2020", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
   "Barnfield, M. and Bale, T.", "2020", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}",
-  "Zerback, T., Reinemann, C., and Barnfield, M.", "Under Review", "Total Recall? Examining the accuracy of poll recall during an election campaign", "Mass Communication and Society"
+  "Zerback, T., Reinemann, C., and Barnfield, M.", "Forthcoming", "Total Recall? Examining the accuracy of poll recall during an election campaign", "Mass Communication and Society"
 ) %>% 
   detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
 
@@ -75,7 +75,7 @@ tribble(
 tribble(
   ~ Role, ~ Date, ~ Title, ~ Conference,
   "Presenter", "2019", "Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice", "Annual conference of Elections, Public Opinion and Parties group",
-  "Presenter", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect.", "Montréal-Leuven Winter School"
+  "Presenter", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "Montréal-Leuven Winter School"
 ) %>% 
   detailed_entries(Role, Date, Title, Conference, .protect = FALSE)
 
