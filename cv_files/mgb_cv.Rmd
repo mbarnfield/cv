@@ -46,7 +46,7 @@ tribble(
   ~ Authors, ~ Order, ~ Title, ~ Journal,
   "Barnfield, M.", "2020", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
   "Barnfield, M. and Bale, T.", "2020", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}",
-  "Zerback, T., Reinemann, C., and Barnfield, M.", "Forthcoming", "Total Recall? Examining the accuracy of poll recall during an election campaign", "Mass Communication and Society"
+  "Zerback, T., Reinemann, C., and Barnfield, M.", "2021", "Total Recall? Examining the accuracy of poll recall during an election campaign", "\\href{https://www.tandfonline.com/doi/full/10.1080/15205436.2021.1936559}{Mass Communication and Society}"
 ) %>% 
   detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
 
