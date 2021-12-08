@@ -38,8 +38,9 @@ tribble(
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
-  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Philip Cowley and Javier Sajuria. Funded by a +3 ESRC studentship",
-  "MRes Politics and International Relations", "2017-2018", "University of Bath", "supervised by Peter Allen and Aurelien Mondon. Awarded with Distinction",
+  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship",
+  "The Bandwagon Effect: How Popularity Information Affects Electoral Expectations and Voting Behaviour",  "Thesis title", "", "",
+  "MRes Politics and International Relations", "2017-2018", "University of Bath", "supervised by Dr Peter Allen and Dr Aurelien Mondon. Awarded with Distinction",
   "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. Awarded Gordon Horner Prize for highest overall performance"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Mark)
@@ -53,9 +54,6 @@ tribble(
 library(tibble)
 tribble(
   ~ Authors, ~ Order, ~ Title, ~ Journal,
-  "Barnfield, M.", "2021", "Off the Biden Bandwagon: Experimental Evidence on the Effects of State Polls in the 2020 U.S. Presidential Election", "Under Review",
-  "Stöckli, S., Spälti, A. K., Phillips, J., Stoeckel, F., Barnfield, M., Thompson, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2021", "Which vaccine attributes foster vaccine uptake? A cross-country conjoint experiment", "Under Review",
-  "Stoeckel, F., Stöckli, S., Spälti, A. K., Phillips, J., Lyons, B., Mérola, V., Reifler, J., Barnfield, M., and Szewach, P.", "2021", "Stamping the vaccine passport? Public support for lifting COVID-19 related restrictions for vaccinated citizens in France, Germany, and Sweden", "Under Review",
   "Zerback, T., Reinemann, C., and Barnfield, M.", "2021", "Total Recall? Examining the accuracy of poll recall during an election campaign", "\\href{https://www.tandfonline.com/doi/full/10.1080/15205436.2021.1936559}{Mass Communication and Society}",
   "Barnfield, M.", "2020", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
   "Barnfield, M. and Bale, T.", "2020", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}"
@@ -65,16 +63,18 @@ tribble(
 
 ```
 
-## Conference papers
-
+## Under review 
 
 ```{r}
+library(tibble)
 tribble(
-  ~ Role, ~ Date, ~ Title, ~ Conference,
-  "Presenter", "2019", "Accounting for Wishful Thinking in Measuring the Effect of Expectations on Vote Choice", "Annual conference of Elections, Public Opinion and Parties group",
-  "Presenter", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "Montréal-Leuven Winter School"
+  ~ Authors, ~ Order, ~ Title, ~ Journal,
+  "Barnfield, M.", "2021", "Off the Biden Bandwagon: Experimental Evidence on the Effects of State Polls in the 2020 U.S. Presidential Election", "Under Review",
+  "Barnfield, M.", "2021", "Momentum Matters: The Dynamic Effect of Changes in Vote Intention Polls on Electoral Expectations", "Under Review",
+  "Stöckli, S., Spälti, A. K., Phillips, J., Stoeckel, F., Barnfield, M., Thompson, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2021", "Which vaccine attributes foster vaccine uptake? A cross-country conjoint experiment", "Under Review",
+  "Stoeckel, F., Stöckli, S., Spälti, A. K., Phillips, J., Lyons, B., Mérola, V., Reifler, J., Barnfield, M., and Szewach, P.", "2021", "Stamping the vaccine passport? Public support for lifting COVID-19 related restrictions for vaccinated citizens in France, Germany, and Sweden", "Under Review"
 ) %>% 
-  detailed_entries(Role, Date, Title, Conference, .protect = FALSE)
+  detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
 
 
 ```
@@ -93,31 +93,6 @@ tribble(
 
 ```
 
-   
-## Other research involvement
-
-```{r}
-tribble(
-  ~ Role, ~ Date, ~ Title,
-  "Research Assistant", "2019-2020", "ESRC Party Members Project"
-) %>% 
-  detailed_entries(Role, Date, Title, .protect = FALSE)
-
-
-```
-
-# Software (`R` packages)
-
-```{r}
-tribble(
-  ~ Detail, ~ Package, ~ Role,
-  "Author and creator", "2019-present", "cjbae: Bayesian analysis of conjoint experiments",
-  "Contributor", "2019", "cregg: Simple conjoint analyses, tidying, and visualisation"
-) %>% 
-  detailed_entries(Detail, Package, Role, .protect = FALSE)
-
-
-```   
 
 # Teaching
 
@@ -127,7 +102,8 @@ tribble(
 tribble(
   ~ Role, ~Name, ~ Date,
   "Teaching Associate", "POLM083: Introduction to Quantitative Methods (Postgraduate)", "2020-2021", 
-  "Teaching Associate", "POL252: Political Research; POL269: Political Data Research", "2020",
+  "Teaching Associate", "POL269: Political Data Research", "2020",
+  "Teaching Associate", "POL252: Political Research", "2020",
   "Teaching Associate", "POL112: Introduction into Politics", "2019"
 ) %>% 
   detailed_entries(Role, Date, Name, .protect = FALSE)
@@ -136,13 +112,14 @@ tribble(
 ```   
 
 
-# Professional service
+# Professional service and research involvement
 
 ```{r}
 tribble(
   ~ Role, ~ Date, ~ Assoc,
   "Peer reviewer", "2020", "British Journal of Political Science; Electoral Studies",
   "Member", "2018-present", "Political Studies Association; EPOP Specialist Group",
+  "Research Assistant", "2019-2020", "ESRC Party Members Project"
 ) %>% 
   detailed_entries(Role, Date, Assoc, .protect = FALSE)
 
