@@ -27,7 +27,7 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
-  "Postdoctoral Research Fellow", "2021-2022", "University of Exeter", "College of Social Sciences & International Studies"
+  "Postdoctoral Research Fellow", "2021-2022", "University of Exeter", "Department of Politics"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Mark)
 ```
@@ -38,8 +38,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
-  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship",
-  "The Bandwagon Effect: How Popularity Information Affects Electoral Expectations and Voting Behaviour",  "Thesis title", "", "",
+  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship. Passed with no corrections. Thesis title: The Bandwagon Effect: How Popularity Information Affects Electoral Expectations and Voting Behaviour",
   "MRes Politics and International Relations", "2017-2018", "University of Bath", "supervised by Dr Peter Allen and Dr Aurelien Mondon. Awarded with Distinction",
   "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. Awarded Gordon Horner Prize for highest overall performance"
 ) %>% 
@@ -54,30 +53,33 @@ tribble(
 library(tibble)
 tribble(
   ~ Authors, ~ Order, ~ Title, ~ Journal,
+  "Barnfield, M.", "2022", "Misinformation in Political Science", "R+R at Perspectives on Politics",
+  "Barnfield, M. and Bale, T.", "2022", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}",
   "Zerback, T., Reinemann, C., and Barnfield, M.", "2021", "Total Recall? Examining the accuracy of poll recall during an election campaign", "\\href{https://www.tandfonline.com/doi/full/10.1080/15205436.2021.1936559}{Mass Communication and Society}",
-  "Barnfield, M.", "2020", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
-  "Barnfield, M. and Bale, T.", "2020", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}"
+  "Barnfield, M.", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
 ) %>% 
   detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
 
 
 ```
 
-## Under review 
+## Works in progress
 
 ```{r}
 library(tibble)
 tribble(
-  ~ Authors, ~ Order, ~ Title, ~ Journal,
-  "Barnfield, M.", "2021", "Off the Biden Bandwagon: Experimental Evidence on the Effects of State Polls in the 2020 U.S. Presidential Election", "Under Review",
-  "Barnfield, M.", "2021", "Momentum Matters: The Dynamic Effect of Changes in Vote Intention Polls on Electoral Expectations", "Under Review",
-  "Stöckli, S., Spälti, A. K., Phillips, J., Stoeckel, F., Barnfield, M., Thompson, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2021", "Which vaccine attributes foster vaccine uptake? A cross-country conjoint experiment", "Under Review",
-  "Stoeckel, F., Stöckli, S., Spälti, A. K., Phillips, J., Lyons, B., Mérola, V., Reifler, J., Barnfield, M., and Szewach, P.", "2021", "Stamping the vaccine passport? Public support for lifting COVID-19 related restrictions for vaccinated citizens in France, Germany, and Sweden", "Under Review"
+  ~ Authors, ~ Order, ~ Title,
+  "Barnfield, M.", "2022", "Momentum Matters: The Dynamic Effect of Changes in Vote Intention Polls on Electoral Expectations", 
+  "Barnfield, M., Stöckli, S., Stoeckel, F.,  Thompson, J., Phillips, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2022", "The Effect of Public Opinion on First- and Second-Order Climate Beliefs", 
+  "Barnfield, M., Thompson, J., Stöckli, S., Stoeckel, F., Phillips, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2022", "Coalition Expectations Before and After Elections", 
 ) %>% 
-  detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
+  detailed_entries(Authors, Order, Title, .protect = FALSE)
 
 
 ```
+
+
+
 
 
 ## Blog posts
@@ -112,16 +114,16 @@ tribble(
 ```   
 
 
-# Professional service and research involvement
+# Professional service 
 
 ```{r}
 tribble(
-  ~ Role, ~ Date, ~ Assoc,
-  "Peer reviewer", "2020", "British Journal of Political Science; Electoral Studies",
-  "Member", "2018-present", "Political Studies Association; EPOP Specialist Group",
-  "Research Assistant", "2019-2020", "ESRC Party Members Project"
+  ~ Details, ~ Summary,
+  "Peer reviewer", "British Journal of Political Science, Electoral Studies, Party Politics",
+  "Member", "Political Studies Association, EPOP Specialist Group",
+  "Research Assistant", "ESRC Party Members Project"
 ) %>% 
-  detailed_entries(Role, Date, Assoc, .protect = FALSE)
+  detailed_entries(Summary, Details, .protect = FALSE)
 
 
 ``` 
