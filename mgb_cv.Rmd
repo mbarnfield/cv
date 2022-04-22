@@ -38,7 +38,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
-  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship. Passed with no corrections. Thesis title: The Bandwagon Effect: How Popularity Information Affects Electoral Expectations and Voting Behaviour",
+  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship. Awarded PSA McDougall Prize for best dissertation in the field of elections, electoral systems and representation",
   "MRes Politics and International Relations", "2017-2018", "University of Bath", "supervised by Dr Peter Allen and Dr Aurelien Mondon. Awarded with Distinction",
   "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. Awarded Gordon Horner Prize for highest overall performance"
 ) %>% 
@@ -53,7 +53,8 @@ tribble(
 library(tibble)
 tribble(
   ~ Authors, ~ Order, ~ Title, ~ Journal,
-  "Barnfield, M.", "2022", "Misinformation in Political Science", "R+R at Perspectives on Politics",
+  "Barnfield, M.", "2022", "Misinformation in Experimental Political Science", "Under review",
+  "Barnfield, M.", "2022", "Over-optimism Conditions the Winner-Loser Gap in Satisfaction With Democracy", "Under review",
   "Barnfield, M. and Bale, T.", "2022", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}",
   "Zerback, T., Reinemann, C., and Barnfield, M.", "2021", "Total Recall? Examining the accuracy of poll recall during an election campaign", "\\href{https://www.tandfonline.com/doi/full/10.1080/15205436.2021.1936559}{Mass Communication and Society}",
   "Barnfield, M.", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
@@ -70,8 +71,8 @@ library(tibble)
 tribble(
   ~ Authors, ~ Order, ~ Title,
   "Barnfield, M.", "2022", "Momentum Matters: The Dynamic Effect of Changes in Vote Intention Polls on Electoral Expectations", 
-  "Barnfield, M., Stöckli, S., Stoeckel, F.,  Thompson, J., Phillips, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2022", "The Effect of Public Opinion on First- and Second-Order Climate Beliefs", 
-  "Barnfield, M., Thompson, J., Stöckli, S., Stoeckel, F., Phillips, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2022", "Coalition Expectations Before and After Elections", 
+  "Barnfield, M., Stöckli, S., Stoeckel, F.,  Thompson, J., Phillips, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2022", "The Effect of Opinion Polls on Perceptions of Future Political Feasibility", 
+  "Barnfield, M., Stöckli, S., Stoeckel, F., Phillips, J., Thompson, J., Mérola, V., Szewach, P., Lyons, B., and Reifler, J.", "2022", "Both Projection and Reality Inform Expectations Under Uncertainty", 
 ) %>% 
   detailed_entries(Authors, Order, Title, .protect = FALSE)
 
