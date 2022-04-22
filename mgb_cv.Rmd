@@ -39,7 +39,7 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
   "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship. Awarded PSA McDougall Prize for best dissertation in the field of elections, electoral systems and representation",
-  "MRes Politics and International Relations", "2017-2018", "University of Bath", "supervised by Dr Peter Allen and Dr Aurelien Mondon. Awarded with Distinction",
+  "MRes Politics and International Relations", "2017-2018", "University of Bath", "Distinction",
   "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. Awarded Gordon Horner Prize for highest overall performance"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Mark)
@@ -120,7 +120,7 @@ tribble(
 ```{r}
 tribble(
   ~ Details, ~ Summary,
-  "Peer reviewer", "British Journal of Political Science, Electoral Studies, Party Politics",
+  "Peer reviewer", "British Journal of Political Science, Electoral Studies, Party Politics, Journal of Social and Political Psychology",
   "Member", "Political Studies Association, EPOP Specialist Group",
   "Research Assistant", "ESRC Party Members Project"
 ) %>% 
