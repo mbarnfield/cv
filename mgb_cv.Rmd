@@ -38,14 +38,14 @@ tribble(
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
-  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship. Awarded PSA McDougall Prize for best dissertation in the field of elections, electoral systems and representation",
+  "PhD Political Science", "2018-2021", "Queen Mary University of London", "supervised by Professor Philip Cowley and Dr Javier Sajuria, examined by Professor Shaun Bowler (UC Riverside) and Dr James Strong. Funded by a +3 ESRC studentship. Awarded PSA McDougall Fund Dissertation Prize",
   "MRes Politics and International Relations", "2017-2018", "University of Bath", "Distinction",
-  "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. Awarded Gordon Horner Prize for highest overall performance"
+  "BA Modern Languages and European Studies", "2013-2017", "University of Bath", "First-class Hons. Awarded Gordon Horner Prize"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Mark)
 ```
 
-# Publications and research
+# Research
 
 ## Journal articles
 
@@ -55,6 +55,7 @@ tribble(
   ~ Authors, ~ Order, ~ Title, ~ Journal,
   "Barnfield, M.", "2022", "Misinformation in Experimental Political Science", "Under review",
   "Barnfield, M.", "2022", "Over-optimism Conditions the Winner-Loser Gap in Satisfaction With Democracy", "Under review",
+  "Stöckli, S., Spälti, A. K., Phillips, J., Stoeckel, F., Barnfield, M., Thompson, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2022", "Which vaccine attributes foster vaccine uptake? A cross-country conjoint experiment", "\\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266003}{PLOS One}", 
   "Barnfield, M. and Bale, T.", "2022", "‘Leaving the red Tories’: ideology, leaders, and why party members quit", "\\href{https://journals.sagepub.com/doi/full/10.1177/1354068820962035}{Party Politics}",
   "Zerback, T., Reinemann, C., and Barnfield, M.", "2021", "Total Recall? Examining the accuracy of poll recall during an election campaign", "\\href{https://www.tandfonline.com/doi/full/10.1080/15205436.2021.1936559}{Mass Communication and Society}",
   "Barnfield, M.", "2019", "Think Twice before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "\\href{https://journals.sagepub.com/doi/full/10.1177/1478929919870691}{Political Studies Review}",
@@ -70,7 +71,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Authors, ~ Order, ~ Title,
-  "Barnfield, M.", "2022", "Momentum Matters: The Dynamic Effect of Changes in Vote Intention Polls on Electoral Expectations", 
+  "Barnfield, M.", "2022", "Momentum in the Polls Raises Expectations of Electoral Success", 
   "Barnfield, M., Stöckli, S., Stoeckel, F.,  Thompson, J., Phillips, J., Lyons, B., Mérola, V., Szewach, P., and Reifler, J.", "2022", "The Effect of Opinion Polls on Perceptions of Future Political Feasibility", 
   "Barnfield, M., Stöckli, S., Stoeckel, F., Phillips, J., Thompson, J., Mérola, V., Szewach, P., Lyons, B., and Reifler, J.", "2022", "Both Projection and Reality Inform Expectations Under Uncertainty", 
 ) %>% 
@@ -96,20 +97,50 @@ tribble(
 
 ```
 
+## Talks and presentations
+
+```{r}
+library(tibble)
+tribble(
+  ~ Authors, ~ Order, ~ Title, ~ Journal,
+    "European Consortium for Political Research General Conference", "2022", "Misinformation in Experimental Political Science", "Conference presentation, 22nd August",
+  "Department of Logic, History and Philosophy of Science -- UNED Madrid", "2022", "Misinformation in Experimental Political Science", "Invited talk, 17th May",
+  "School of Politics and International Relations -- Queen Mary University of London", "2022", "Misinformation in Experimental Political Science", "Invited talk, 30th March (cancelled due to QMUCU strike action)",
+  "Political Studies Association Annual Conference", "2022", "Momentum Matters: The Dynamic Effect of Changes in Vote Intention Polls on Electoral Expectations", "Conference presentation, 11th April",
+  "Elections, Public Opinion and Parties Annual Meeting", "2019", "Accounting for Wishful Thinking in Estimating the Bandwagon Effect", "Conference presentation, 14th September",
+  "Montréal-Leuven Winter School on Elections", "2019", "Think Twice Before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "Presentation, 6th March",
+) %>% 
+  detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
+
+
+```
+
+# Awards (funds and prizes)
+
+```{r}
+library(tibble)
+tribble(
+  ~ Name, ~ Year, ~ Detail,
+  "McDougall Trust Prize", "2022", "Awarded by Political Studies Association, for best dissertation in the field of elections, electoral systems and representation", 
+  "Postgraduate Research Fund", "2021", "Awarded by Queen Mary University of London to support original survey research, total value £720", 
+  "ESRC PhD Studentship", "2018-2021", "Awarded by LISS Doctoral Training Partnership, total value ~£66,000", 
+  "Gordon Horner Prize", "2017", "Awarded by the Department of Politics, Languages and International Studies at the University of Bath, for highest overall performance in a degree in Modern Languages and European Studies"
+
+) %>% 
+  detailed_entries(Name, Year, Detail, .protect = FALSE)
+
+
+```
 
 # Teaching
 
-## Queen Mary University of London
-
 ```{r}
 tribble(
-  ~ Role, ~Name, ~ Date,
-  "Teaching Associate", "POLM083: Introduction to Quantitative Methods (Postgraduate)", "2020-2021", 
-  "Teaching Associate", "POL269: Political Data Research", "2020",
-  "Teaching Associate", "POL252: Political Research", "2020",
-  "Teaching Associate", "POL112: Introduction into Politics", "2019"
+  ~ Role, ~Name, ~ Date, ~ Place,
+  "Teaching Associate", "POLM083: Introduction to Quantitative Methods (Postgraduate), POL269: Political Data Research, POL252: Political Research", "2020-2021", "Queen Mary University of London",
+  "Teaching Associate", "POL112: Introduction into Politics", "2019", "Queen Mary University of London"
 ) %>% 
-  detailed_entries(Role, Date, Name, .protect = FALSE)
+  detailed_entries(Role, Date, Place, Name, .protect = FALSE)
 
 
 ```   
@@ -117,14 +148,15 @@ tribble(
 
 # Professional service 
 
+
 ```{r}
 tribble(
-  ~ Details, ~ Summary,
-  "Peer reviewer", "British Journal of Political Science, Electoral Studies, Party Politics, Journal of Social and Political Psychology",
-  "Member", "Political Studies Association, EPOP Specialist Group",
-  "Research Assistant", "ESRC Party Members Project"
+  ~ Date, ~ Details, ~ Summary,
+  "2019-present", "Peer reviewer", "British Journal of Political Science, Electoral Studies, Party Politics, Journal of Social and Political Psychology, PLOS One",
+  "2019-present", "Member", "Political Studies Association, EPOP Specialist Group, European Consortium for Political Research",
+  "2019-2020", "Research Assistant", "ESRC Party Members Project"
 ) %>% 
-  detailed_entries(Summary, Details, .protect = FALSE)
+  detailed_entries(Details, Date, Summary, .protect = FALSE)
 
 
 ``` 
