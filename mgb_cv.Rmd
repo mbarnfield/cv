@@ -1,7 +1,7 @@
 ---
 name: Matthew
 surname: Barnfield
-position: "Postdoctoral Research Fellow"
+position: "Postdoctoral Fellow"
 www: matthewbarnfield.co.uk
 header-includes: 
    - \usepackage{times}
@@ -27,7 +27,7 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Mark,
-  "Postdoctoral Research Fellow", "2022-2023", "University of Essex", "Department of Government (ESRC Postdoctoral Fellowship)",
+  "ESRC Postdoctoral Fellow", "2022-2023", "University of Essex", "Department of Government",
   "Postdoctoral Research Fellow", "2021-2022", "University of Exeter", "Department of Politics"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Mark)
