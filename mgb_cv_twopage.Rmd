@@ -100,48 +100,13 @@ tribble(
 
 ```
 
-## Talks and presentations
-
-```{r}
-library(tibble)
-tribble(
-  ~ Authors, ~ Order, ~ Title, ~ Journal,
-  "Elections, Public Opinion and Parties Annual Meeting", "2022", "Momentum in the Polls Raises Electoral Expectations", "Conference presentation, 2nd September",
-  "Elections, Public Opinion and Parties Annual Meeting", "2022", "Misinformation in Experimental Political Science", "Conference presentation, 2nd September",
-  "European Consortium for Political Research General Conference", "2022", "Misinformation in Experimental Political Science", "Conference presentation, 22nd August",
-  "Department of Logic, History and Philosophy of Science -- UNED Madrid", "2022", "Misinformation in Experimental Political Science", "Invited talk, 17th May",
-  "Political Studies Association Annual Conference", "2022", "Momentum Matters: The Dynamic Effect of Changes in Vote Intention Polls on Electoral Expectations", "Conference presentation, 11th April",
-  "Elections, Public Opinion and Parties Annual Meeting", "2019", "Accounting for Wishful Thinking in Estimating the Bandwagon Effect", "Conference presentation, 14th September",
-  "Montréal-Leuven Winter School on Elections", "2019", "Think Twice Before Jumping on the Bandwagon: Clarifying Concepts in Research on the Bandwagon Effect", "Presentation, 6th March",
-) %>% 
-  detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
-
-
-```
-
-## Works in progress
-
-```{r}
-library(tibble)
-tribble(
-  ~ Authors, ~ Order, ~ Title, ~ Journal,
-  "Barnfield, M.", "2022", "Momentum in the Polls Raises Electoral Expectations", "",
-  "Barnfield, M.", "2022", "Electoral Expectations and Democratic Legitimacy in U.S. Presidential Elections", ""
-) %>% 
-  detailed_entries(Authors, Order, Title, Journal, .protect = FALSE)
-
-
-```
-
-
 
 # Teaching
 
 ```{r}
 tribble(
   ~ Role, ~Name, ~ Date, ~ Place,
-  "Teaching Associate", "POLM083: Introduction to Quantitative Methods (Postgraduate), POL269: Political Data Research, POL252: Political Research", "2020-2021", "Queen Mary University of London",
-  "Teaching Associate", "POL112: Introduction into Politics", "2019", "Queen Mary University of London"
+  "Teaching Associate", "POLM083: Introduction to Quantitative Methods (Postgraduate), POL269: Political Data Research, POL252: Political Research, POL112: Introduction into Politics", "2019-2021", "Queen Mary University of London",
 ) %>% 
   detailed_entries(Role, Date, Place, Name, .protect = FALSE)
 
@@ -165,17 +130,5 @@ tribble(
 ``` 
 
 
-# Skills
-
-```{r}
-tribble(
-  ~ Thing, ~ Summary,
-  "R, SPSS, Stata, MS Office Suite, LaTeX", "Software", 
-  "English (native), French (advanced), Spanish (intermediate)", "Languages"
-) %>% 
-  detailed_entries(Thing, Summary, .protect = FALSE)
-
-
-``` 
 
 
